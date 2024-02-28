@@ -14,3 +14,11 @@ void array(string [] stringArray)
      stringArray[i] = Console.ReadLine();
   }
 }
+string [] symbol(string [] stringArray)
+{
+  int n = 0;
+  for (int i = 0;i<stringArray.Length;i++)
+  {
+    if(stringArray[i].Length <=3)
+    n++;
+  }
